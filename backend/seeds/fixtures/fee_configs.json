@@ -1,0 +1,50 @@
+[
+  {
+    "model": "finance.feeconcept",
+    "pk": 1,
+    "fields": {
+      "name": "Cuota Ordinaria Departamento",
+      "description": "Cuota mensual de departamento",
+      "concept_type": "ordinary",
+      "calculation_type": "fixed",
+      "base_amount": "85000.00",
+      "coefficient_multiplier": "1.0000",
+      "is_active": true,
+      "requires_approval": false,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "finance.feeconcept",
+    "pk": 2,
+    "fields": {
+      "name": "Cuota Ordinaria Cochera",
+      "description": "Cuota mensual de cochera",
+      "concept_type": "ordinary",
+      "calculation_type": "fixed",
+      "base_amount": "25000.00",
+      "coefficient_multiplier": "1.0000",
+      "is_active": true,
+      "requires_approval": false,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "finance.feeconcept",
+    "pk": 3,
+    "fields": {
+      "name": "Multa por Ruidos Molestos",
+      "description": "Multa por ruidos molestos",
+      "concept_type": "fine",
+      "calculation_type": "fixed",
+      "base_amount": "50000.00",
+      "coefficient_multiplier": "1.0000",
+      "is_active": true,
+      "requires_approval": false,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
